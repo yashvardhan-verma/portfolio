@@ -1,0 +1,95 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+.container {
+  background-color: #a9d6e5;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.navigation {
+  position: -webkit-sticky;
+  position: sticky;
+  height: 50px;
+  background: #012a4a;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  font-family: "Roboto", sans-serif;
+}
+
+#_active {
+  border-bottom: 2px solid #a9d6e5;
+}
+
+a {
+  color: #a9d6e5;
+  text-decoration: none;
+}
+.intro-me {
+  font-family: "Livvic SemiBold", sans-serif;
+  font-size: 60px;
+}
+
+#role {
+  font-family: Livvic, "sans-serif";
+  font-weight: 1500;
+  font-size: 30px;
+  color: #014f86;
+}
+#name-me {
+  border-bottom: 4px solid #012a4a;
+}
+.svg-blob {
+  width: 600px;
+  height: 600px;
+}
+
+#code-dude{
+  position: relative;
+  top: -440px;
+}
+/*======================================================================================================================*/
+
+.container-2 {
+  background-color: #ecf0f3;
+  width: 100vw;
+  height: 100vh;
+}
+
+#skills {
+  font-family: Roboto, sans-serif;
+  font-weight: bold;
+  font-size: 55px;
+  color: #013a63;
+  border-bottom: 6px solid #013a63;
+
+  position: absolute;
+  left: 230px;
+  top: 815px;
+}
+
+.skill-set {
+  position: absolute;
+  width: 100vw;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  top: 1000px;
+}
+.frontend,
+.backend,
+.databases {
+  width: 330px;
+  height: 400px;
+  background: #ecf0f3;
+  box-shadow: -18px -18px 30px rgba(255, 255, 255, 0.9), 18px 18px 30px #d1d9e6;
+  border-radius: 21px;
+}
